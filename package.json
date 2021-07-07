@@ -1,0 +1,25 @@
+{
+  "name": "json-resume",
+  "version": "1.0.0",
+  "description": "Sid's resume, generated using JSON Resume",
+  "main": "index.js",
+  "scripts": {
+    "serve": "resume serve --theme=Kendall",
+    "pdf": "resume export ./public/resume.pdf --theme=Kendall",
+    "html": "resume export ./public/index.html --theme=Kendall"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SidStraw/JSON-Resume.git"
+  },
+  "author": "Sid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SidStraw/JSON-Resume/issues"
+  },
+  "homepage": "https://github.com/SidStraw/JSON-Resume#readme",
+  "dependencies": {
+    "jsonresume-theme-kendall": "^0.2.0",
+    "resume-cli": "^3.0.5"
+  }
+}
