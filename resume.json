@@ -1,0 +1,223 @@
+{
+  "meta": {
+    "theme": "stackoverflow"
+  },
+  "basics": {
+    "name": "Sid Chang",
+    "label": "Frontend Engineer",
+    "picture": "",
+    "email": "j80304xz@gmail.com",
+    "phone": "",
+    "website": "www.cakeresume.com/sidstraw",
+    "summary": "具多年網頁開發經驗，在開發團隊中擔任前端工程師，主要負責 Web、App 相關服務開發與維護，畢業於陸軍專科學校資訊科。 \n\n平時以「Sid」、「吸管」、「這可要好好管管」等稱呼積極參與前端社群活動，於開發團隊中善於溝通協調且樂於分享所學，期許自身能不斷產出最適合團隊與產品需求，可靠性、可讀性俱佳的程式碼。",
+    "location": {
+      "countryCode": "TW",
+      "address": "台灣"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "sidstraw",
+        "url": "https://www.linkedin.com/in/sidstraw/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Newegg",
+      "endDate": "",
+      "highlights": [],
+      "position": "Frontend Engineer",
+      "startDate": "2021-05-31",
+      "summary": null,
+      "website": "https://www.linkedin.com/company/14541"
+    },
+    {
+      "company": "Monospace 共同工作空間",
+      "endDate": "",
+      "highlights": [],
+      "position": "Freelance Web Developer",
+      "startDate": "2017-08-31",
+      "summary": null,
+      "website": "https://www.linkedin.com/company/19153538"
+    },
+    {
+      "company": "Microprogram 微程式",
+      "endDate": "2021-05-31",
+      "highlights": [],
+      "position": "Frontend Engineer",
+      "startDate": "2018-10-31",
+      "summary": null,
+      "website": "https://www.linkedin.com/company/10376320"
+    },
+    {
+      "company": "The Republic of China Army",
+      "endDate": "2017-03-31",
+      "highlights": [],
+      "position": "Sergeant, Information Warrior",
+      "startDate": "2006-09-30",
+      "summary": null,
+      "website": "https://www.linkedin.com/company/35496067"
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Army Academy R.O.C.",
+      "area": "Information Engineering",
+      "studyType": "",
+      "startDate": "2003-12-31",
+      "endDate": "2006-12-31",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Front-end Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "JavaScript",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "React.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "網頁開發",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "微程式資訊 Microprogram ",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Vue.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Node.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SASS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "React Native",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Google Cloud Platform (GCP)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Webpack",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Internet Protocol Suite (TCP/IP)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "階層式樣式表 (CSS)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "MySQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Jest",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Linux",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Git",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "HTML",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Firebase",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Search Engine Optimization (SEO)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Android Studio",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "WordPress",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Bootstrap",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "zh",
+      "fluency": "Native Speaker"
+    }
+  ],
+  "interests": [],
+  "references": [
+    {
+      "name": "Samantha Huang",
+      "reference": "Sid在團隊合作中細心參與且積極提出解決方案，開發維護高品質的程式，使我們的專案能順利地一步步實現，Sid是一個很好的工作夥伴！\n\n\nAs a software engineer, Sid participates in the teamwork cautiously and provides solutions diligently, moreover, the programs he developed and maintained have high quality, it made our products implement the goal gradually and successfully. Sid is a good partner!\n"
+    },
+    {
+      "name": "DaYuan Lin",
+      "reference": "他對於前端切版有很高的造詣，常常於專案之中提供十分有用的見解， 並熱衷於協助社群上的夥伴解決遇到的難題，\n他是一根只剩下半截的吸管，雖然剩下半截，但仍十分努力的活在這個殘酷的世上，阿們\n\n"
+    },
+    {
+      "name": "柏錩 廖",
+      "reference": "  Sid 是一位對程式很有熱忱的人，常常積極參加前端相關的講座，也會和同事分享新技術，在讀書會中，製作用精美的簡報與豐富的內容並以生動活潑的方式講解，也會和台下的我們互動，很棒！\n\n  技術方面 JavaScript 底子很好，Vue 和 React 和 React Native 都難不倒他，程式碼易懂很容易 code review，最近剛推出 tailwind css 很積極的學習，也會推薦給同事們一起用。也會摸索 Graphql 和 TypeScript，新技術學習速度很快！\n\n前微程式同事 Richard 筆"
+    },
+    {
+      "name": "信諺 曾",
+      "reference": "本身是後端，在專案合作中跟Sid合作開發，Sid負責前端的部分，前端技術的專業知識很足夠，開發效率也很高，平常有些前端的問題也會請教Sid一起討論出更好的寫法！"
+    },
+    {
+      "name": "Saviah, Chih-Hui Kao",
+      "reference": "益嘉，通常我們都稱他為吸管:) 他是一個學習力強，願意分享知識及經驗的同事。如果請教他程式相關問題，也樂於一起討論及解決。是個好溝通且能力強的前端工程師。"
+    }
+  ]
+}
