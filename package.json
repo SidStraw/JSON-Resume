@@ -6,7 +6,7 @@
   "scripts": {
     "serve": "resume serve --theme=Kendall",
     "pdf": "resume export ./public/resume.pdf --theme=Kendall",
-    "html": "resume export ./public/index.html --theme=Kendall"
+    "html": "resume export index.html --theme=Kendall"
   },
   "repository": {
     "type": "git",
