@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Resume of 張益嘉 Sid</title>
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> -->
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet">
+    <style type="text/css">
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
+@charset "utf-8";
+@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }
+
+body{
+  font-family: 'Open Sans', Arial, Tahoma;
+  font-weight: 400;
+  color: #363636;
+  background: #334960;
+}
+blockquote {
+  font-size: 1em;
+}
+
+.container{
+  margin-top: 80px;
+  margin-bottom: 15px;
+  background: #fff;
+}
+
+#photo-header{
+  margin-top: -75px;
+}
+#photo{
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 5px;
+  background: #334960;
+  display: inline-block;
+}
+#photo img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+#text-header h1{
+  margin: 0;
+  padding: 0;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+#text-header h1::first-line{
+  font-size: 1.5em;
+  font-weight: 800;
+  line-height: 1.5em;
+}
+#text-header h1 span{
+  color: #334960;
+  opacity: 0.7;
+}
+#text-header h1 sup{
+  opacity: 0.5;
+}
+#text-header:after{
+  width: 100%;
+  height: 3px;
+  border-bottom: 1px solid #ddd;
+  margin-top: 15px;
+  content: '';
+  display: block;
+}
+
+.box{
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+}
+.box h2{
+  color: #227c74;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#awards,
+#education{
+  margin-top: 20px;
+  margin-bottom: 0;
+  position: relative;
+  padding: 1em 0;
+  list-style: none;
+}
+#awards:before,
+#education:before {
+  width: 5px;
+  height: 100%;
+  position: absolute;
+  left: 35px;
+  top: 0;
+  content: ' ';
+  display: block;
+  background: #32475c;
+  background: -moz-linear-gradient(top,  #ffffff 0%, #32475c 7%, #32475c 89%, #ffffff 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(7%,#32475c), color-stop(89%,#32475c), color-stop(100%,#ffffff));
+  background: -webkit-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  background: -o-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  background: -ms-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  background: linear-gradient(to bottom,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
+}
+#awards li,
+#education li{
+  width: 100%;
+  z-index: 2;
+  position: relative;
+  float: left;
+}
+#awards .year,
+#education .year{
+  width: 14%;
+  background: #fff;
+  padding: 10px;
+  font-weight: 700;
+  display: inline-block;
+}
+#awards .description,
+#education .description{
+  width: 83%;
+  display: inline-block;
+  background: #eee;
+  margin-bottom: 10px;
+  position: relative;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+#awards .description:after,
+#education .description:after {
+  content: '';
+  position: absolute;
+  top: 15px;
+  right: 0;
+  left: -16px;
+  height: 0;
+  width: 0;
+  border: solid transparent;
+  border-right-color: #eee;
+  border-width: 8px;
+  pointer-events: none;
+}
+#awards .description h3,
+#education .description h3{
+  font-size: 1.2em;
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+}
+#awards .description p,
+#education .description p{
+  margin-top: 5px;
+  padding: 0;
+}
+
+.job{
+  margin-bottom: 15px;
+}
+.job .details {
+  margin-left: 3%;
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: #eee;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+.job .where{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.job .year{
+  opacity: 0.7;
+}
+.job .profession{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.job .description{
+  line-height: 1.5em;
+}
+.job .highlights{
+  padding: 5px 0;
+  font-weight: bold;
+}
+.job .job-details {
+  padding-left: 5%;
+  width: 100%;
+}
+.publication {
+  margin-bottom: 0;
+}
+.publication .name{
+  font-size: 1em;
+  font-weight: bold;
+}
+.publication .year{
+    opacity: 0.7;
+}
+.publication p{
+  margin: 0;
+  padding-top: 10px;
+}
+
+.contact-item{
+  width: 100%;
+  float: left;
+}
+.contact-item .icon{
+  padding: 10px;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  color: #32475c;
+  background: #eee;
+}
+.contact-item:last-child .icon{
+  border-bottom: none;
+}
+.contact-item .title{
+  width: 80%;
+  width: calc(100% - 55px);
+  font-weight: 700;
+  opacity: 0.9;
+}
+.contact-item .title.only{
+  margin-top: 10px;
+}
+.contact-item .description{
+  width: 80%;
+  width: calc(100% - 55px);
+  color: #334960;
+}
+
+.item-interests,
+.item-skills{
+  height: 30px;
+  color: #334960;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+.interest,
+.skill{
+  color: #fff;
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  background: #32475c;
+  position: relative;
+  font-size: .85em;
+}
+.skill-level {
+  background-color: #227c74;
+  border-radius: 4px;
+  color: #fff;
+  padding: 1px 8px;
+  font-size: .75em;
+  position: absolute;
+  margin: 1px 10px;
+}
+
+#language-skills .skill{
+  margin: 10px 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+    </style>
+    <style type="text/css" media="print">
+    body {
+  font-size: .95em;
+  -webkit-print-color-adjust: exact;
+}
+
+a[href]:after {
+  content: none !important;
+}
+
+#photo{
+  display: none;
+}
+
+.box {
+  margin-bottom: -10px;
+}
+
+blockquote,
+#education,
+#awards,
+.contact-item,
+.publication,
+.skills,
+.interests {
+  page-break-inside: avoid;
+}
+
+.col-sm-5{
+  width: 40%;
+  padding: 0 15px;
+}
+
+.col-sm-7{
+  width: 60%;
+  padding: 0 15px;
+}
+
+.skills .col-sm-offset-1,
+.interests .col-sm-offset-1{
+  margin-top: -10px;
+  margin-bottom: 5px;
+}
+
+#education {
+  margin: 0;
+  margin-bottom: -20px;
+}
+#awards:before,
+#education:before {
+  background: none;
+}
+
+#awards .description,
+#education .description,
+.job .details {
+  border: 1px solid #eee;
+}
+.publication,
+.publication .panel-heading,
+.publication .name{
+  margin: 0;
+  padding: 0 5px;
+  border: none;
+}
+.publication .panel-body {
+  padding: 0 10px;
+  margin: 0;
+}
+
+.badge {
+  margin: 0;
+}
+
+.list-group-item{
+  border: none;
+  margin: 0;
+  padding: 5px 15px;
+}
+.list-group-item:after{
+  content: '';
+  position: absolute;
+  top: 8px;
+  right: 0;
+  left: -1px;
+  height: 0;
+  width: 0;
+  border: solid transparent;
+  border-right-color: #999;
+  border-width: 4px;
+  pointer-events: none;
+ }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div id="photo-header" class="text-center">
+            <!-- PHOTO (AVATAR) -->
+            <div id="photo">
+              <img src="https:&#x2F;&#x2F;sid.tw&#x2F;images&#x2F;sid.jpg" alt="avatar">
+            </div>
+            <div id="text-header" >
+              <h1>張益嘉 Sid<br><span>Frontend Engineer</span></h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-7">
+          <!-- ABOUT ME -->
+          <div class="box">
+            <h2><i class="fas fa-user ico"></i> About</h2>
+            <p>於開發團隊中擔任 Frontend Engineer，負責使用前端技術開發與維護 Web、App 相關服務，畢業於陸軍專科學校資訊科，於開發團隊中善於溝通協調且樂於分享所學，期許自身能不斷產出最適合團隊與產品需求，可靠性、可讀性俱佳的程式碼，平時以「Sid」、「吸管」、「這可要好好管管」等稱呼積極參與前端社群活動。</p>
+          </div>
+          <!-- WORK EXPERIENCE -->
+          <div class="box">
+            <h2><i class= "fas fa-suitcase ico"></i> Work Experience</h2>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      
+                    </div>
+                    <div class="year">May 2021 – Present</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Newegg Frontend Engineer</div>
+                    <div class="description">
+                      參與 Newegg E-commerce App 系統優化、功能開發，主要使用 React Native 相關技術。
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item"><h4>Newegg E-commerce App</h4>優化介面操作邏輯、重構通用 UI 組件與 React Native Animated 動畫效果，解決多項顧客投訴，並參與 Live Streaming 直播銷售功能開發。</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      
+                    </div>
+                    <div class="year">October 2018 – May 2021</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Microprogram 微程式資訊 Frontend Engineer</div>
+                    <div class="description">
+                      開發、維護、重構各大專案，並參與各專案導入 CI/CD、Unit Testing、統一開發流程等工作，主要使用 Vue、React、React Native 相關技術進行開發。
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item"><h4>YouBile 行銷模組</h4>負責前端架構規劃、開發、協調，使用 Vue 生態系完成專案共用組件及活動點數、抽獎、兌獎等功能開發，並撰寫相關單元測試。</li>
+                        <li class="list-group-item"><h4>車輛調度人員工作系統</h4>負責前端架構規劃、開發、協調，使用 React 生態系完成即時資料地圖、任務派遣、工單任務回報等功能開發，並撰寫相關單元測試。</li>
+                        <li class="list-group-item"><h4>Yoke RFID 資產檢驗管理 App</h4>負責使用 React Native 進行開發，完成藍芽連接硬體、 NFC 讀取 RFID 等組件，藉以完成線上檢驗、報告審核、資產歷程查詢等功能。</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      
+                    </div>
+                    <div class="year">September 2006 – March 2017</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Information Sergeant 上士 資訊士</div>
+                    <div class="description">
+                      部隊網站開發及資訊系統建置、專案網路規劃及伺服器維管
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <!-- AWARDS -->
+          <div class="box">
+            <h2><i class="fas fa-certificate ico"></i> Awards</h2>
+            <ul id="awards" class="clearfix">
+              <li>
+                <div class="year pull-left">November  2020</div>
+                <div class="description pull-right">
+                  <h3>Microprogram 微程式資訊</h3>
+                  <p><i class="fas fa-trophy ico"></i> 最佳開發獎</p>
+                  <p>2020 YouBike 2.0 內部發表會暨 MP 金獎典禮</p>
+                </div>
+              </li>
+              <li>
+                <div class="year pull-left">October  2020</div>
+                <div class="description pull-right">
+                  <h3>第 12 屆 iT 邦幫忙鐵人賽 Modern Web 組</h3>
+                  <p><i class="fas fa-trophy ico"></i> 鐵人鍊成</p>
+                  <p>透過 VuePress 建構 JAMstack 網站來肆意玩弄 Markdown</p>
+                </div>
+              </li>
+              <li>
+                <div class="year pull-left">March  2020</div>
+                <div class="description pull-right">
+                  <h3>Monospace - Come to meetup</h3>
+                  <p><i class="fas fa-trophy ico"></i> 獲選議程</p>
+                  <p>從國防前線到網站前端 - 轉職為自由工作者的職業軍人，為何又選擇回公司打卡？</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- VOLUNTEER -->
+          <div class="box">
+            <h2><i class= "fas fa-users ico"></i> Volunteer</h2>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">TailwindCSS.tw</div>
+                    <div class="year">April 2021 – Present</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">參與繁體中文版文件翻譯、技術推廣</div>
+                    <div class="description">
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">Monospace 共同工作空間</div>
+                    <div class="year">November 2017 – Present</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession"></div>
+                    <div class="description">
+                      參加並協助辦理台中各項技術社群活動、於活動中擔任講師、助教、Mentor、志工等身份。
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-5">
+          <!-- CONTACT -->
+          <div class="box clearfix">
+            <h2><i class="fas fa-bullseye ico"></i> Contact</h2>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fas fa-map-marker fa-fw"></span></div>
+              <div class="title pull-right">Taichung</div>
+              <div class="title  pull-right">Taiwan</div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fas fa-envelope fa-fw"></span></div>
+              <div class="title only pull-right"><a href="mailto:sid@sid.tw" target="_blank">sid@sid.tw</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fab fa-github fa-fw"></span></div>
+              <div class="title pull-right">GitHub</div>
+              <div class="description pull-right"><a href="https:&#x2F;&#x2F;github.com&#x2F;SidStraw" target="_blank">SidStraw</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fab fa-linkedin fa-fw"></span></div>
+              <div class="title pull-right">LinkedIn</div>
+              <div class="description pull-right"><a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;sidstraw&#x2F;" target="_blank">SidStraw</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fas fa-rss fa-fw"></span></div>
+              <div class="title pull-right">Blog</div>
+              <div class="description pull-right"><a href="https:&#x2F;&#x2F;sid.tw" target="_blank">這可要好好管管 Sid.tw</a></div>
+            </div>
+          </div>
+          <!-- EDUCATION -->
+          <div class="box">
+            <h2><i class="fas fa-university ico"></i> Education</h2>
+            <ul id="education" class="clearfix">
+              <li>
+                <div class="year pull-left">2003 2006</div>
+                <div class="description pull-right">
+                  <h3>Army Academy R.O.C.</h3>
+                  <div class="where"></div>
+                  
+                  <p>Information Engineering</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- SKILLS -->
+          <div class="box">
+            <h2><i class="fas fa-tasks ico"></i> Skills</h2>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Front-end Development
+                  
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">Git flow</span>
+                <span class= "skill badge">Web Security</span>
+                <span class= "skill badge">CSS</span>
+                <span class= "skill badge">Tailwind CSS</span>
+                <span class= "skill badge">Webpack</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  JavaScript
+                  
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">Design Pattern</span>
+                <span class= "skill badge">Functional Programming</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  React.js
+                  
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">React Native</span>
+                <span class= "skill badge">Next.js</span>
+                <span class= "skill badge">Redux</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Vue.js
+                  
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">Nuxt.js</span>
+                <span class= "skill badge">Vuetify.js</span>
+                <span class= "skill badge">VuePress</span>
+                <span class= "skill badge">Vuex</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Quality
+                  
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">TypeScript</span>
+                <span class= "skill badge">Jest</span>
+                <span class= "skill badge">Testing Library</span>
+                <span class= "skill badge">Mock Service Worker</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  DevOps
+                  
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">Docker</span>
+                <span class= "skill badge">GitLab CI</span>
+                <span class= "skill badge">GitHub Actions</span>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <h2><i class= "fas fa-check-square ico"></i> References</h2>
+            <blockquote>
+              <div>As a software engineer, Sid participates in the teamwork cautiously and provides solutions diligently, moreover, the programs he developed and maintained have high quality, it made our products implement the goal gradually and successfully. Sid is a good partner!
+<br/>Sid在團隊合作中細心參與且積極提出解決方案，開發維護高品質的程式，使我們的專案能順利地一步步實現，Sid是一個很好的工作夥伴！</div>
+              <footer>
+                <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;sidstraw&#x2F;" target= "_blank">Samantha Huang</a>
+              </footer>
+            </blockquote><br>
+            <blockquote>
+              <div>  Sid 是一位對程式很有熱忱的人，常常積極參加前端相關的講座，也會和同事分享新技術，在讀書會中，製作用精美的簡報與豐富的內容並以生動活潑的方式講解，也會和台下的我們互動，很棒！<br/> 技術方面 JavaScript 底子很好，Vue 和 React 和 React Native 都難不倒他，程式碼易懂很容易 code review，最近剛推出 tailwind css 很積極的學習，也會推薦給同事們一起用。也會摸索 Graphql 和 TypeScript，新技術學習速度很快！<br/>前微程式同事 Richard 筆</div>
+              <footer>
+                <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;sidstraw&#x2F;" target= "_blank">廖柏錩</a>
+              </footer>
+            </blockquote><br>
+            <blockquote>
+              <div>本身是後端，在專案合作中跟Sid合作開發，Sid負責前端的部分，前端技術的專業知識很足夠，開發效率也很高，平常有些前端的問題也會請教Sid一起討論出更好的寫法！</div>
+              <footer>
+                <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;sidstraw&#x2F;" target= "_blank">曾信諺</a>
+              </footer>
+            </blockquote><br>
+            <blockquote>
+              <div>益嘉，通常我們都稱他為吸管:) 他是一個學習力強，願意分享知識及經驗的同事。如果請教他程式相關問題，也樂於一起討論及解決。是個好溝通且能力強的前端工程師。</div>
+              <footer>
+                <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;sidstraw&#x2F;" target= "_blank">Saviah, Chih-Hui Kao</a>
+              </footer>
+            </blockquote><br>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
