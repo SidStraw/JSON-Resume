@@ -1,24 +1,35 @@
 {
-  "meta": {
-    "theme": "stackoverflow"
-  },
   "basics": {
-    "name": "Sid Chang",
+    "name": "張益嘉 Sid",
     "label": "Frontend Engineer",
-    "picture": "",
-    "email": "j80304xz@gmail.com",
+    "picture": "https://sid.tw/images/sid.jpg",
+    "image": "https://sid.tw/images/sid.jpg",
+    "email": "sid@sid.tw",
     "phone": "",
-    "website": "www.cakeresume.com/sidstraw",
-    "summary": "具多年網頁開發經驗，在開發團隊中擔任前端工程師，主要負責 Web、App 相關服務開發與維護，畢業於陸軍專科學校資訊科。 \n\n平時以「Sid」、「吸管」、「這可要好好管管」等稱呼積極參與前端社群活動，於開發團隊中善於溝通協調且樂於分享所學，期許自身能不斷產出最適合團隊與產品需求，可靠性、可讀性俱佳的程式碼。",
+    "website": "https://sid.tw",
+    "summary": "於開發團隊中擔任 Frontend Engineer，負責使用前端技術開發與維護 Web、App 相關服務，畢業於陸軍專科學校資訊科，於開發團隊中善於溝通協調且樂於分享所學，期許自身能不斷產出最適合團隊與產品需求，可靠性、可讀性俱佳的程式碼，平時以「Sid」、「吸管」、「這可要好好管管」等稱呼積極參與前端社群活動。",
     "location": {
-      "countryCode": "TW",
-      "address": "台灣"
+      "address": "Taichung",
+      "postalCode": "",
+      "city": "Taiwan",
+      "countryCode": "",
+      "region": ""
     },
     "profiles": [
       {
+        "network": "GitHub",
+        "username": "SidStraw",
+        "url": "https://github.com/SidStraw"
+      },
+      {
         "network": "LinkedIn",
-        "username": "sidstraw",
+        "username": "SidStraw",
         "url": "https://www.linkedin.com/in/sidstraw/"
+      },
+      {
+        "network": "Blog",
+        "username": "這可要好好管管 Sid.tw",
+        "url": "https://sid.tw"
       }
     ]
   },
@@ -26,41 +37,68 @@
     {
       "company": "Newegg",
       "endDate": "",
-      "highlights": [],
-      "position": "Frontend Engineer",
+      "highlights": [
+        "<h4>Newegg E-commerce App</h4>優化介面操作邏輯、重構通用 UI 組件與 React Native Animated 動畫效果，解決多項顧客投訴，並參與 Live Streaming 直播銷售功能開發。"
+      ],
+      "position": "Newegg Frontend Engineer",
       "startDate": "2021-05-31",
-      "summary": null,
+      "summary": "參與 Newegg E-commerce App 系統優化、功能開發，主要使用 React Native 相關技術。",
       "website": "https://www.linkedin.com/company/14541"
     },
     {
-      "company": "Monospace 共同工作空間",
-      "endDate": "",
-      "highlights": [],
-      "position": "Freelance Web Developer",
-      "startDate": "2017-08-31",
-      "summary": null,
-      "website": "https://www.linkedin.com/company/19153538"
-    },
-    {
-      "company": "Microprogram 微程式",
+      "company": "Microprogram 微程式資訊",
       "endDate": "2021-05-31",
-      "highlights": [],
-      "position": "Frontend Engineer",
+      "highlights": [
+        "<h4>YouBile 行銷模組</h4>負責前端架構規劃、開發、協調，使用 Vue 生態系完成專案共用組件及活動點數、抽獎、兌獎等功能開發，並撰寫相關單元測試。",
+        "<h4>車輛調度人員工作系統</h4>負責前端架構規劃、開發、協調，使用 React 生態系完成即時資料地圖、任務派遣、工單任務回報等功能開發，並撰寫相關單元測試。",
+        "<h4>Yoke RFID 資產檢驗管理 App</h4>負責使用 React Native 進行開發，完成藍芽連接硬體、 NFC 讀取 RFID 等組件，藉以完成線上檢驗、報告審核、資產歷程查詢等功能。"
+      ],
+      "position": "Microprogram 微程式資訊 Frontend Engineer",
       "startDate": "2018-10-31",
-      "summary": null,
+      "summary": "開發、維護、重構各大專案，並參與各專案導入 CI/CD、Unit Testing、統一開發流程等工作，主要使用 Vue、React、React Native 相關技術進行開發。",
       "website": "https://www.linkedin.com/company/10376320"
     },
     {
       "company": "The Republic of China Army",
       "endDate": "2017-03-31",
-      "highlights": [],
-      "position": "Sergeant, Information Warrior",
+      "highlights": [""],
+      "position": "Information Sergeant 上士 資訊士",
       "startDate": "2006-09-30",
-      "summary": null,
+      "summary": "部隊網站開發及資訊系統建置、專案網路規劃及伺服器維管",
       "website": "https://www.linkedin.com/company/35496067"
     }
   ],
-  "volunteer": [],
+  "_works": [
+    {
+      "_company": "Monospace 共同工作空間",
+      "_endDate": "",
+      "_highlights": ["進行 Web 服務架設與開發", "依需求對各項前端頁面修正與切版", "參與並協助"],
+      "_position": "Freelance Web Developer",
+      "_startDate": "2017-08-31",
+      "_summary": null,
+      "_website": "https://www.linkedin.com/company/19153538"
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "TailwindCSS.tw",
+      "position": "參與繁體中文版文件翻譯、技術推廣",
+      "website": "https://TailwindCSS.tw/",
+      "startDate": "2021-04-10",
+      "endDate": "",
+      "summary": "",
+      "highlights": [""]
+    },
+    {
+      "organization": "Monospace 共同工作空間",
+      "position": "",
+      "website": "https://monospace.tw/",
+      "startDate": "2017-11-01",
+      "endDate": "",
+      "summary": "參加並協助辦理台中各項技術社群活動、於活動中擔任講師、助教、Mentor、志工等身份。",
+      "highlights": [""]
+    }
+  ],
   "education": [
     {
       "institution": "Army Academy R.O.C.",
@@ -72,152 +110,107 @@
       "courses": []
     }
   ],
-  "awards": [],
-  "publications": [],
+  "awards": [
+    {
+      "title": "最佳開發獎",
+      "date": "2020-11-03",
+      "awarder": "Microprogram 微程式資訊",
+      "summary": "2020 YouBike 2.0 內部發表會暨 MP 金獎典禮"
+    },
+    {
+      "title": "鐵人鍊成",
+      "date": "2020-10-11",
+      "awarder": "第 12 屆 iT 邦幫忙鐵人賽 Modern Web 組",
+      "summary": "透過 VuePress 建構 JAMstack 網站來肆意玩弄 Markdown"
+    },
+    {
+      "title": "獲選議程",
+      "date": "2020-03-20",
+      "awarder": "Monospace - Come to meetup",
+      "summary": "從國防前線到網站前端 - 轉職為自由工作者的職業軍人，為何又選擇回公司打卡？"
+    }
+  ],
+  "_publications": [
+    {
+      "name": "2020 第 12 屆 iT 邦幫忙鐵人賽 Modern Web 組",
+      "publisher": "透過 VuePress 建構 JAMstack 網站來肆意玩弄 Markdown",
+      "releaseDate": "",
+      "website": "",
+      "summary": ""
+    }
+  ],
   "skills": [
     {
       "name": "Front-end Development",
       "level": "",
-      "keywords": []
+      "keywords": ["Git flow", "Web Security", "CSS", "Tailwind CSS", "Webpack"]
     },
     {
       "name": "JavaScript",
       "level": "",
-      "keywords": []
+      "keywords": ["Design Pattern", "Functional Programming"]
     },
     {
       "name": "React.js",
       "level": "",
-      "keywords": []
-    },
-    {
-      "name": "網頁開發",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "微程式資訊 Microprogram ",
-      "level": "",
-      "keywords": []
+      "keywords": ["React Native", "Next.js", "Redux"]
     },
     {
       "name": "Vue.js",
       "level": "",
-      "keywords": []
+      "keywords": ["Nuxt.js", "Vuetify.js", "VuePress", "Vuex"]
     },
     {
-      "name": "Node.js",
+      "name": "Quality",
       "level": "",
-      "keywords": []
+      "keywords": ["TypeScript", "Jest", "Testing Library", "Mock Service Worker"]
     },
     {
-      "name": "SASS",
+      "name": "DevOps",
       "level": "",
-      "keywords": []
-    },
-    {
-      "name": "React Native",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Google Cloud Platform (GCP)",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Webpack",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Internet Protocol Suite (TCP/IP)",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "階層式樣式表 (CSS)",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "MySQL",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Jest",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Linux",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Git",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "HTML",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Firebase",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Search Engine Optimization (SEO)",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Android Studio",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "WordPress",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Bootstrap",
-      "level": "",
-      "keywords": []
+      "keywords": ["Docker", "GitLab CI", "GitHub Actions"]
     }
   ],
   "languages": [
     {
-      "language": "zh",
-      "fluency": "Native Speaker"
+      "language": "Chinese",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Elementary"
     }
   ],
-  "interests": [],
+  "_interests": [
+    {
+      "name": "靜態",
+      "keywords": ["閱讀", "吉他", "寫作"]
+    },
+    {
+      "name": "動態",
+      "keywords": ["登山", "單車", "跑步", "游泳"]
+    }
+  ],
   "references": [
     {
       "name": "Samantha Huang",
-      "reference": "Sid在團隊合作中細心參與且積極提出解決方案，開發維護高品質的程式，使我們的專案能順利地一步步實現，Sid是一個很好的工作夥伴！\n\n\nAs a software engineer, Sid participates in the teamwork cautiously and provides solutions diligently, moreover, the programs he developed and maintained have high quality, it made our products implement the goal gradually and successfully. Sid is a good partner!\n"
+      "reference": "As a software engineer, Sid participates in the teamwork cautiously and provides solutions diligently, moreover, the programs he developed and maintained have high quality, it made our products implement the goal gradually and successfully. Sid is a good partner!\n<br/>Sid在團隊合作中細心參與且積極提出解決方案，開發維護高品質的程式，使我們的專案能順利地一步步實現，Sid是一個很好的工作夥伴！",
+      "url": "https://www.linkedin.com/in/sidstraw/"
     },
     {
-      "name": "DaYuan Lin",
-      "reference": "他對於前端切版有很高的造詣，常常於專案之中提供十分有用的見解， 並熱衷於協助社群上的夥伴解決遇到的難題，\n他是一根只剩下半截的吸管，雖然剩下半截，但仍十分努力的活在這個殘酷的世上，阿們\n\n"
+      "name": "廖柏錩",
+      "reference": "  Sid 是一位對程式很有熱忱的人，常常積極參加前端相關的講座，也會和同事分享新技術，在讀書會中，製作用精美的簡報與豐富的內容並以生動活潑的方式講解，也會和台下的我們互動，很棒！<br/> 技術方面 JavaScript 底子很好，Vue 和 React 和 React Native 都難不倒他，程式碼易懂很容易 code review，最近剛推出 tailwind css 很積極的學習，也會推薦給同事們一起用。也會摸索 Graphql 和 TypeScript，新技術學習速度很快！<br/>前微程式同事 Richard 筆",
+      "url": "https://www.linkedin.com/in/sidstraw/"
     },
     {
-      "name": "柏錩 廖",
-      "reference": "  Sid 是一位對程式很有熱忱的人，常常積極參加前端相關的講座，也會和同事分享新技術，在讀書會中，製作用精美的簡報與豐富的內容並以生動活潑的方式講解，也會和台下的我們互動，很棒！\n\n  技術方面 JavaScript 底子很好，Vue 和 React 和 React Native 都難不倒他，程式碼易懂很容易 code review，最近剛推出 tailwind css 很積極的學習，也會推薦給同事們一起用。也會摸索 Graphql 和 TypeScript，新技術學習速度很快！\n\n前微程式同事 Richard 筆"
-    },
-    {
-      "name": "信諺 曾",
-      "reference": "本身是後端，在專案合作中跟Sid合作開發，Sid負責前端的部分，前端技術的專業知識很足夠，開發效率也很高，平常有些前端的問題也會請教Sid一起討論出更好的寫法！"
+      "name": "曾信諺",
+      "reference": "本身是後端，在專案合作中跟Sid合作開發，Sid負責前端的部分，前端技術的專業知識很足夠，開發效率也很高，平常有些前端的問題也會請教Sid一起討論出更好的寫法！",
+      "url": "https://www.linkedin.com/in/sidstraw/"
     },
     {
       "name": "Saviah, Chih-Hui Kao",
-      "reference": "益嘉，通常我們都稱他為吸管:) 他是一個學習力強，願意分享知識及經驗的同事。如果請教他程式相關問題，也樂於一起討論及解決。是個好溝通且能力強的前端工程師。"
+      "reference": "益嘉，通常我們都稱他為吸管:) 他是一個學習力強，願意分享知識及經驗的同事。如果請教他程式相關問題，也樂於一起討論及解決。是個好溝通且能力強的前端工程師。",
+      "url": "https://www.linkedin.com/in/sidstraw/"
     }
   ]
 }
