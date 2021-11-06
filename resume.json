@@ -7,7 +7,7 @@
     "email": "sid@sid.tw",
     "phone": "",
     "website": "https://sid.tw",
-    "summary": "於開發團隊中擔任 Frontend Engineer，負責使用前端技術開發與維護 Web、App 相關服務，畢業於陸軍專科學校資訊科，於開發團隊中善於溝通協調且樂於分享所學，期許自身能不斷產出最適合團隊與產品需求，可靠性、可讀性俱佳的程式碼，平時以「Sid」、「吸管」、「這可要好好管管」等稱呼積極參與前端社群活動。",
+    "summary": "於開發團隊中擔任 Frontend Engineer，負責使用前端技術開發與維護 Web、App 相關服務，畢業於陸軍專科學校資訊科，於開發團隊中善於溝通協調且樂於分享所學，期許自身能不斷產出最適合團隊與產品需求，可靠性、可讀性俱佳的程式碼，平時以「Sid」、「管管」等稱呼積極參與前端社群活動。",
     "location": {
       "address": "Taichung",
       "postalCode": "",
@@ -38,11 +38,11 @@
       "company": "Newegg",
       "endDate": "",
       "highlights": [
-        "<h4>Newegg E-commerce App</h4>優化介面操作邏輯、重構通用 UI 組件與 React Native Animated 動畫效果，解決多項顧客投訴，並參與 Live Streaming 直播銷售功能開發。"
+        "<h4>Newegg E-commerce App / Mobile Site</h4><ol>  <li>優化介面操作邏輯、重構通用 UI 組件與 React Native Animated 動畫效果。</li>  <li>Newegg Live Streaming 開發團隊成員，負責多項頁面組件、互動功能開發。</li>  <li>Homepage redesign 後重新開發新版 UI 組件與各項新需求。</li>  <li>Push、Email、SMS Notification 用戶註冊、解綁、驗證等功能開發</li></ol>"
       ],
       "position": "Newegg Frontend Engineer",
       "startDate": "2021-05-31",
-      "summary": "參與 Newegg E-commerce App 系統優化、功能開發，主要使用 React Native 相關技術。",
+      "summary": "參與 Newegg E-commerce App、Mobile Site 系統優化、功能開發，主要技術線為 React、React Native、TypeScript 生態系。",
       "website": "https://www.linkedin.com/company/14541"
     },
     {
@@ -55,7 +55,7 @@
       ],
       "position": "Microprogram 微程式資訊 Frontend Engineer",
       "startDate": "2018-10-31",
-      "summary": "開發、維護、重構各大專案，並參與各專案導入 CI/CD、Unit Testing、統一開發流程等工作，主要使用 Vue、React、React Native 相關技術進行開發。",
+      "summary": "開發、維護、重構各大專案，並參與各專案導入 CI/CD、Unit Testing、統一開發流程等工作，主要技術線為 Vue、React、React Native 生態系。",
       "website": "https://www.linkedin.com/company/10376320"
     },
     {
@@ -64,7 +64,7 @@
       "highlights": [""],
       "position": "Information Sergeant 上士 資訊士",
       "startDate": "2006-09-30",
-      "summary": "部隊網站開發及資訊系統建置、專案網路規劃及伺服器維管",
+      "summary": "進行部隊網站開發及資訊系統建置、專案網路規劃及伺服器維管。",
       "website": "https://www.linkedin.com/company/35496067"
     }
   ],
@@ -81,21 +81,21 @@
   ],
   "volunteer": [
     {
-      "organization": "TailwindCSS.tw",
-      "position": "參與繁體中文版文件翻譯、技術推廣",
+      "organization": "兔兔教 × Tailwind CSS Taiwan",
+      "position": "",
       "website": "https://TailwindCSS.tw/",
       "startDate": "2021-04-10",
       "endDate": "",
-      "summary": "",
+      "summary": "參與 Tailwind CSS 繁體中文版文件翻譯、技術推廣，並於 JavaScript、React 等各項學習活動中擔任講師、Mentor、志工等工作。",
       "highlights": [""]
     },
     {
-      "organization": "Monospace 共同工作空間",
-      "position": "參加並協助辦理台中各項技術社群活動、於活動中擔任講師、助教、Mentor、志工等身份。",
+      "organization": "台中 Monospace 共同工作空間、夢森林守門員",
+      "position": "",
       "website": "https://monospace.tw/",
       "startDate": "2017-11-01",
       "endDate": "",
-      "summary": "",
+      "summary": "參加並協助 CodeCamp、台中前端社群、Google Developer Groups Taichung 等各項技術社群活動。",
       "highlights": [""]
     }
   ],
@@ -112,38 +112,38 @@
   ],
   "awards": [
     {
+      "title": "大神來六角 - 教學講師",
+      "date": "2021-11-04",
+      "awarder": "HexSchool 六角學院",
+      "summary": "The F2E 3rd 特別教學活動：JavaScript 如何從零開始打造分頁管理套件"
+    },
+    {
+      "title": "書面嘉獎",
+      "date": "2021-09-16",
+      "awarder": "Newegg Live Streaming",
+      "summary": "Newegg Live Streaming 需求開發順利完成，首場直播最大同時上線人數 883 人"
+    },
+    {
       "title": "最佳開發獎",
       "date": "2020-11-03",
       "awarder": "Microprogram 微程式資訊",
       "summary": "2020 YouBike 2.0 內部發表會暨 MP 金獎典禮"
-    },
-    {
-      "title": "鐵人鍊成",
-      "date": "2020-10-11",
-      "awarder": "第 12 屆 iT 邦幫忙鐵人賽 Modern Web 組",
-      "summary": "透過 VuePress 建構 JAMstack 網站來肆意玩弄 Markdown"
-    },
-    {
-      "title": "獲選議程",
-      "date": "2020-03-20",
-      "awarder": "Monospace - Come to meetup",
-      "summary": "從國防前線到網站前端 - 轉職為自由工作者的職業軍人，為何又選擇回公司打卡？"
     }
   ],
-  "_publications": [
+  "publications": [
     {
       "name": "2020 第 12 屆 iT 邦幫忙鐵人賽 Modern Web 組",
       "publisher": "透過 VuePress 建構 JAMstack 網站來肆意玩弄 Markdown",
-      "releaseDate": "",
-      "website": "",
-      "summary": ""
+      "releaseDate": "2020-10-13",
+      "website": "https://ithelp.ithome.com.tw/users/20129182/ironman/3444",
+      "summary": "JAMstack 拉近了靜態網站與 SSR 之間的差距並保持了靜態網站高性能、低成本、高安全性的關鍵優勢，搭配上 VuePress 靜態網站生成器的 Markdown 預處理機制，可以在建構內容時於 .md 檔中靈活的使用各種預先定義好的 Vue 組件。"
     }
   ],
   "skills": [
     {
       "name": "Front-end Development",
       "level": "",
-      "keywords": ["Git flow", "Web Security", "CSS", "Tailwind CSS", "Webpack"]
+      "keywords": ["Git flow", "Web Security", "Tailwind CSS", "Webpack"]
     },
     {
       "name": "JavaScript",
@@ -163,7 +163,7 @@
     {
       "name": "Quality",
       "level": "",
-      "keywords": ["TypeScript", "Jest", "Testing Library", "Mock Service Worker"]
+      "keywords": ["ESLint", "TypeScript", "Jest", "Testing Library"]
     },
     {
       "name": "DevOps",
@@ -184,7 +184,7 @@
   "_interests": [
     {
       "name": "靜態",
-      "keywords": ["閱讀", "吉他", "寫作"]
+      "keywords": ["閱讀", "唱歌", "吉他", "寫作"]
     },
     {
       "name": "動態",
@@ -194,23 +194,23 @@
   "references": [
     {
       "name": "Samantha Huang",
-      "reference": "As a software engineer, Sid participates in the teamwork cautiously and provides solutions diligently, moreover, the programs he developed and maintained have high quality, it made our products implement the goal gradually and successfully. Sid is a good partner!\n<br/>Sid在團隊合作中細心參與且積極提出解決方案，開發維護高品質的程式，使我們的專案能順利地一步步實現，Sid是一個很好的工作夥伴！",
-      "url": "https://www.linkedin.com/in/sidstraw/"
+      "reference": "Sid在團隊合作中細心參與且積極提出解決方案，開發維護高品質的程式，使我們的專案能順利地一步步實現，Sid是一個很好的工作夥伴！",
+      "url": "https://www.linkedin.com/in/samantha-huang-273768146/"
     },
     {
-      "name": "廖柏錩",
-      "reference": "  Sid 是一位對程式很有熱忱的人，常常積極參加前端相關的講座，也會和同事分享新技術，在讀書會中，製作用精美的簡報與豐富的內容並以生動活潑的方式講解，也會和台下的我們互動，很棒！<br/> 技術方面 JavaScript 底子很好，Vue 和 React 和 React Native 都難不倒他，程式碼易懂很容易 code review，最近剛推出 tailwind css 很積極的學習，也會推薦給同事們一起用。也會摸索 Graphql 和 TypeScript，新技術學習速度很快！<br/>前微程式同事 Richard 筆",
-      "url": "https://www.linkedin.com/in/sidstraw/"
+      "name": "廖柏錩 Richard",
+      "reference": "Sid 是一位對程式很有熱忱的人，常常積極參加前端相關的講座，也會和同事分享新技術，在讀書會中，製作用精美的簡報與豐富的內容並以生動活潑的方式講解，也會和台下的我們互動，很棒！<br>技術方面 JavaScript 底子很好，Vue 和 React 和 React Native 都難不倒他，程式碼易懂很容易 code review，最近剛推出 Tailwind CSS 很積極的學習，也會推薦給同事們一起用。也會摸索 GraphQL 和 TypeScript，新技術學習速度很快！",
+      "url": "https://www.linkedin.com/in/%E6%9F%8F%E9%8C%A9-%E5%BB%96-34b92510b/"
     },
     {
       "name": "曾信諺",
       "reference": "本身是後端，在專案合作中跟Sid合作開發，Sid負責前端的部分，前端技術的專業知識很足夠，開發效率也很高，平常有些前端的問題也會請教Sid一起討論出更好的寫法！",
-      "url": "https://www.linkedin.com/in/sidstraw/"
+      "url": "https://www.linkedin.com/in/639969166/"
     },
     {
       "name": "Saviah, Chih-Hui Kao",
       "reference": "益嘉，通常我們都稱他為吸管:) 他是一個學習力強，願意分享知識及經驗的同事。如果請教他程式相關問題，也樂於一起討論及解決。是個好溝通且能力強的前端工程師。",
-      "url": "https://www.linkedin.com/in/sidstraw/"
+      "url": "https://www.linkedin.com/in/chihhui-kao/"
     }
   ]
 }
