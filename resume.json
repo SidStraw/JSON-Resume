@@ -38,7 +38,7 @@
       "company": "Newegg",
       "endDate": "",
       "highlights": [
-        "<h4>Newegg E-commerce App / Mobile Site</h4><ol>  <li>優化介面操作邏輯、重構通用 UI 組件與 React Native Animated 動畫效果。</li>  <li>Newegg Live Streaming 開發團隊成員，負責多項頁面組件、互動功能開發。</li>  <li>Homepage redesign 後重新開發新版 UI 組件與各項新需求。</li>  <li>Push、Email、SMS Notification 用戶註冊、解綁、驗證等功能開發</li></ol>"
+        "<h4>Newegg E-commerce App / Mobile Site</h4><ol>  <li>優化介面操作邏輯、重構通用 UI 組件與 React Native Animated 動畫效果。</li>  <li>Newegg Live Streaming 開發團隊成員，負責多項頁面組件、互動功能開發。</li>  <li>Homepage redesign 後重新開發新版 UI 組件與各項新需求。</li>  <li>Push、Email、SMS Notification 用戶註冊、解綁、驗證等功能開發。</li></ol>"
       ],
       "position": "Newegg Frontend Engineer",
       "startDate": "2021-05-31",
@@ -86,7 +86,7 @@
       "website": "https://TailwindCSS.tw/",
       "startDate": "2021-04-10",
       "endDate": "",
-      "summary": "參與 Tailwind CSS 繁體中文版文件翻譯、技術推廣，並於 JavaScript、React 等各項學習活動中擔任講師、Mentor、志工等工作。",
+      "summary": "參與 Tailwind CSS 繁體中文版文件翻譯、技術推廣，並於 JavaScript、React 等各項學習活動中擔任 Mentor、志工。",
       "highlights": [""]
     },
     {
