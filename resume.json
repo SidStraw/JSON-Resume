@@ -8,7 +8,7 @@
     "phone": "",
     "website": "https://sid.tw",
     "summary": "擁有 6 年的前端開發經驗，精通使用 Vue 和 React 生態系進行 Web 應用程式開發，並透過測試與 CI/CD 的設置改善開發流程，擅長在敏捷和 Scrum 環境中工作。",
-    "location": {
+    "_location": {
       "address": "Taichung",
       "postalCode": "",
       "city": "Taiwan",
@@ -168,32 +168,42 @@
     {
       "name": "Front-end Development",
       "level": "",
-      "keywords": ["Git flow", "Web Security", "Tailwind CSS", "Webpack"]
+      "keywords": [
+        "GraphQL",
+        "Tailwind CSS",
+        "Webpack",
+        "Vite",
+        "Storybook"
+      ]
     },
     {
       "name": "JavaScript",
       "level": "",
-      "keywords": ["Design Pattern", "Functional Programming"]
-    },
-    {
-      "name": "React.js",
-      "level": "",
-      "keywords": ["React Native", "Next.js", "Redux"]
-    },
-    {
-      "name": "Vue.js",
-      "level": "",
-      "keywords": ["Nuxt.js", "Vuetify.js", "VuePress", "Vuex"]
-    },
-    {
-      "name": "Quality",
-      "level": "",
-      "keywords": ["ESLint", "TypeScript", "Jest", "Testing Library"]
+      "keywords": [
+        "TypeScript",
+        "React",
+        "Next",
+        "React Native",
+        "Redux",
+        "Vue",
+        "Pinia",
+        "Nuxt",
+        "VuePress",
+        "ESLint",
+        "Jest",
+        "Testing Library",
+        "Mock Service Worker",
+        "Playwright"
+      ]
     },
     {
       "name": "DevOps",
       "level": "",
-      "keywords": ["Docker", "GitLab CI", "GitHub Actions"]
+      "keywords": [
+        "Docker",
+        "GitLab CI",
+        "GitHub Actions"
+      ]
     }
   ],
   "languages": [
@@ -224,7 +234,7 @@
     },
     {
       "name": "廖柏錩 Richard",
-      "reference": "Sid 是一位對程式很有熱忱的人，常常積極參加前端相關的講座，也會和同事分享新技術，在讀書會中，製作用精美的簡報與豐富的內容並以生動活潑的方式講解，也會和台下的我們互動，很棒！<br>技術方面 JavaScript 底子很好，Vue 和 React 和 React Native 都難不倒他，程式碼易懂很容易 code review，最近剛推出 Tailwind CSS 很積極的學習，也會推薦給同事們一起用。也會摸索 GraphQL 和 TypeScript，新技術學習速度很快！",
+      "reference": "<p>Sid 是一位對程式很有熱忱的人，常常積極參加前端相關的講座，也會和同事分享新技術，在讀書會中，製作精美的簡報與豐富的內容並以生動活潑的方式講解，也會和台下的我們互動，很棒！</p> <p>技術方面 JavaScript 底子很好，Vue 和 React 和 React Native 都難不倒他，程式碼易懂很容易 code review，最近剛推出 Tailwind CSS 很積極的學習，也會推薦給同事們一起用。也會摸索 GraphQL 和 TypeScript，新技術學習速度很快！</p>",
       "url": "https://www.linkedin.com/in/%E6%9F%8F%E9%8C%A9-%E5%BB%96-34b92510b/"
     }
   ]
