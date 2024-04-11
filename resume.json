@@ -1,6 +1,6 @@
 {
   "basics": {
-    "name": "張益嘉 Sid",
+    "name": "張益嘉 (Sid Chang)",
     "label": "Frontend Engineer",
     "picture": "/img/LinkedInPhoto.jpeg",
     "image": "/img/LinkedInPhoto.jpeg",
@@ -35,8 +35,8 @@
   },
   "work": [
     {
-      "company": "Storipress",
-      "position": "Storipress, Frontend Engineer",
+      "name": "Storipress",
+      "position": "Frontend Engineer",
       "startDate": "2022-02-06",
       "endDate": "",
       "summary": "以前端工程師的身份成為新創團隊核心成員，在 Scrum 的環境中參與並優化公司各類專案",
@@ -49,24 +49,32 @@
       ]
     },
     {
-      "company": "Newegg",
-      "position": "Newegg 台灣新蛋, Frontend Engineer",
+      "name": "Newegg 台灣新蛋",
+      "position": "Frontend Engineer",
       "startDate": "2021-05-31",
       "endDate": "2022-02-06",
       "summary": "使用 React Native、TypeScript 為 Newegg E-commerce App、Mobile Site 進行系統優化、功能開發",
-      "website": "https://www.linkedin.com/company/14541"
+      "website": "https://www.linkedin.com/company/14541",
+      "highlights": [
+        "Homepage redesign 完成新版首頁與組件開發",
+        "完成 App 中 Push、Email、SMS Notification 的用戶註冊、解綁、驗證、多欄位輸入邏輯等功能"
+      ]
     },
     {
-      "company": "Microprogram 微程式資訊",
-      "position": "Microprogram 微程式資訊, Frontend Engineer",
+      "name": "Microprogram 微程式資訊",
+      "position": "Frontend Engineer",
       "startDate": "2018-10-31",
       "endDate": "2021-05-31",
       "summary": "開發、維護並重構了多個 YouBike 相關專案，擔任技術講師並領導實習生融入團隊工作流程。",
-      "website": "https://www.linkedin.com/company/10376320"
+      "website": "https://www.linkedin.com/company/10376320",
+      "highlights": [
+        "YouBiKe 行銷模組、微信公眾號、車輛調度管理系統架構規劃、開發",
+        "使用 React Native 開發 RFID 資產檢驗管理 App，完成藍芽連接、NFC 讀取 RFID 等功能"
+      ]
     },
     {
-      "company": "The Republic of China Army",
-      "position": "中華民國陸軍, 上士 資訊士",
+      "name": "The Republic of China Army 中華民國陸軍",
+      "position": "Information Sergeant 上士 資訊士",
       "startDate": "2006-09-30",
       "endDate": "2017-03-31",
       "highlights": [""],
@@ -74,7 +82,7 @@
       "website": "https://www.linkedin.com/company/35496067"
     }
   ],
-  "volunteer": [
+  "_volunteer": [
     {
       "organization": "兔兔教 × Tailwind CSS Taiwan",
       "position": "",
@@ -107,7 +115,13 @@
   ],
   "awards": [
     {
-      "title": "大神來六角 - 教學講師",
+      "title": "Node.js專題班 - 受邀講師",
+      "date": "2023-05-05",
+      "awarder": "HexSchool 六角學院",
+      "summary": "前端專案的測試與維運：Unit test 與 E2E test"
+    },
+    {
+      "title": "大神來六角 - 受邀講師",
       "date": "2021-11-04",
       "awarder": "HexSchool 六角學院",
       "summary": "The F2E 3rd 特別教學活動：JavaScript 如何從零開始打造分頁管理套件"
@@ -130,8 +144,24 @@
       "name": "2020 第 12 屆 iT 邦幫忙鐵人賽 Modern Web 組",
       "publisher": "透過 VuePress 建構 JAMstack 網站來肆意玩弄 Markdown",
       "releaseDate": "2020-10-13",
-      "website": "https://ithelp.ithome.com.tw/users/20129182/ironman/3444",
+      "url": "https://ithelp.ithome.com.tw/users/20129182/ironman/3444",
       "summary": "JAMstack 拉近了靜態網站與 SSR 之間的差距並保持了靜態網站高性能、低成本、高安全性的關鍵優勢，搭配上 VuePress 靜態網站生成器的 Markdown 預處理機制，可以在建構內容時於 .md 檔中靈活的使用各種預先定義好的 Vue 組件。"
+    },
+    {
+      "name": "Side Project: Sid's VuePress Blog",
+      "publisher": "",
+      "releaseDate": "",
+      "website": "",
+      "url": "https://github.com/SidStraw/VuePressBlog",
+      "summary": "<p>透過自行開發 VuePress theme，進行 SSG 靜態頁面建構，搭配 Netlify CMS 後台系統、GitHub Action 進行 CI/CD 所完成的 JAMstack 架構部落格。</p> <p>Blog 網址為 <a href='sid.tw'>Sid.tw</a> 主要進行前端相關的文章分享。</p>"
+    },
+    {
+      "name": "Side Project: Pagination-UI-LESS",
+      "publisher": "",
+      "releaseDate": "",
+      "website": "",
+      "url": "github.com/SidStraw/Pagination-UI-LESS",
+      "summary": "使用 TypeScript 開發的分頁管理套件，特色在與 UI 介面解耦、僅專注在分頁狀態管理，無依賴任何外部套件，可適用於各種架構，並提供 npm 安裝後引入使用及 CDN 載入兩種使用方式。"
     }
   ],
   "skills": [
@@ -188,24 +218,14 @@
   ],
   "references": [
     {
-      "name": "Samantha Huang",
-      "reference": "Sid在團隊合作中細心參與且積極提出解決方案，開發維護高品質的程式，使我們的專案能順利地一步步實現，Sid是一個很好的工作夥伴！",
+      "name": "James Chao",
+      "reference": "<p>As Sid’s colleague at Newegg, it's a pleasure working with him. He's a pretty competent engineer. He learns things fast, gets started very quickly, and is good at communicating. His code is well designed and highly readable. He is also active in various technical events and keeps improving his skills. </p>  <p>In addition to the professional part, he also likes outdoor activities. We often chat together about cycling. Sid is an experienced cyclist. Maybe one day you can hear some interesting things from him.</p>  <p>He's a good colleague and there are many things I can learn from him. I would like to work with him if there is a chance in the future.</p>",
       "url": "https://www.linkedin.com/in/samantha-huang-273768146/"
     },
     {
       "name": "廖柏錩 Richard",
       "reference": "Sid 是一位對程式很有熱忱的人，常常積極參加前端相關的講座，也會和同事分享新技術，在讀書會中，製作用精美的簡報與豐富的內容並以生動活潑的方式講解，也會和台下的我們互動，很棒！<br>技術方面 JavaScript 底子很好，Vue 和 React 和 React Native 都難不倒他，程式碼易懂很容易 code review，最近剛推出 Tailwind CSS 很積極的學習，也會推薦給同事們一起用。也會摸索 GraphQL 和 TypeScript，新技術學習速度很快！",
       "url": "https://www.linkedin.com/in/%E6%9F%8F%E9%8C%A9-%E5%BB%96-34b92510b/"
-    },
-    {
-      "name": "曾信諺",
-      "reference": "本身是後端，在專案合作中跟Sid合作開發，Sid負責前端的部分，前端技術的專業知識很足夠，開發效率也很高，平常有些前端的問題也會請教Sid一起討論出更好的寫法！",
-      "url": "https://www.linkedin.com/in/639969166/"
-    },
-    {
-      "name": "Saviah, Chih-Hui Kao",
-      "reference": "益嘉，通常我們都稱他為吸管:) 他是一個學習力強，願意分享知識及經驗的同事。如果請教他程式相關問題，也樂於一起討論及解決。是個好溝通且能力強的前端工程師。",
-      "url": "https://www.linkedin.com/in/chihhui-kao/"
     }
   ]
 }
