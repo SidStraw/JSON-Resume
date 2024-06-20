@@ -7,7 +7,7 @@
     "email": "sid@sid.tw",
     "phone": "",
     "website": "https://sid.tw",
-    "summary": "擁有 6 年的前端開發經驗，精通使用 Vue 和 React 生態系進行 Web 應用程式開發，並透過測試與 CI/CD 的設置改善開發流程，擅長在敏捷和 Scrum 環境中工作。",
+    "summary": "<p>擁有 6 年的前端開發經驗，精通使用 Vue 和 React 生態系進行 Web 應用程式開發，並透過測試與 CI/CD 的設置改善開發流程，擅長在敏捷和 Scrum 環境中工作。</p> <p>經歷過個人接案、新創團隊以及中大型公司開發的經驗，了解如何在不同規模的團隊中協作，時常在公司與社群進行技術分享。</p>",
     "_location": {
       "address": "Taichung",
       "postalCode": "",
@@ -137,15 +137,28 @@
       "date": "2020-11-03",
       "awarder": "Microprogram 微程式資訊",
       "summary": "2020 YouBike 2.0 內部發表會暨 MP 金獎典禮"
+    },
+    {
+      "title": "2020 第 12 屆 iT 邦幫忙鐵人賽 Modern Web 組",
+      "date": "2020-10-13",
+      "awarder": "鐵人練成",
+      "summary": "透過 VuePress 建構 JAMstack 網站來肆意玩弄 Markdown"
     }
   ],
   "publications": [
     {
-      "name": "2020 第 12 屆 iT 邦幫忙鐵人賽 Modern Web 組",
-      "publisher": "透過 VuePress 建構 JAMstack 網站來肆意玩弄 Markdown",
-      "releaseDate": "2020-10-13",
+      "name": "透過 VuePress 建構 JAMstack 網站來肆意玩弄 Markdown",
+      "publisher": "",
+      "releaseDate": "",
       "url": "https://ithelp.ithome.com.tw/users/20129182/ironman/3444",
       "summary": "JAMstack 拉近了靜態網站與 SSR 之間的差距並保持了靜態網站高性能、低成本、高安全性的關鍵優勢，搭配上 VuePress 靜態網站生成器的 Markdown 預處理機制，可以在建構內容時於 .md 檔中靈活的使用各種預先定義好的 Vue 組件。"
+    },
+    {
+      "name": "前端開發維護筆記 - 打造健康的前端專案",
+      "publisher": "",
+      "releaseDate": "",
+      "url": "https://ithelp.ithome.com.tw/users/20129182/ironman/5931",
+      "summary": "現代的前端工程師所負責的任務可以說是越來越複雜了，跟過去「前端沒有邏輯」的時代相比，根本不可同日而語，如果你所要負責的專案需要長期的開發、維護，那麼提高維護性就是不能忽視的重要課題。"
     },
     {
       "name": "Side Project: Sid's VuePress Blog",
